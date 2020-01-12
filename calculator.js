@@ -1,4 +1,3 @@
-alert ("Esta es una calculadora con java script");
 
 var operandoA; var operandoB; var operando;
 
