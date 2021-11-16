@@ -1,50 +1,47 @@
-body{
-    background: #acb6e5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+body {
+  background: #acb6e5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #86fde8,
+    #acb6e5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #86fde8,
+    #acb6e5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.calculadora{
-    display: block;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #686de0;
-    width: 350px;
-    height: 500px;
-    border-radius: 25px;
-}
-
-.calculadora td button{
-    display: block;
-    width: 70px;
-    height: 70px;
-    font-size: 25px;
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
+.calculadora {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #686de0;
+  width: 350px;
+  height: 500px;
+  border-radius: 25px;
 }
 
-.footer{
-    background-color: #312e2e;
-    width: 100%;
-    height: 90px;    
-    text-align: center;
-    color: beige;
-    position: fixed;
-    bottom: 0;
+.calculadora td button {
+  display: block;
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
 }
 
-#resultado{
-    display: block;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 50px;
-    width: 300px;
-    height: 100px;
-    line-height: 100px;
-    background: #fff;
-    border-radius: 25px;
-    overflow-y: scroll;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#resultado {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  background: #fff;
+  border-radius: 25px;
+  overflow-y: scroll;
 }

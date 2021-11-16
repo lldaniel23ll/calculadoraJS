@@ -7,9 +7,14 @@
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body onload="init();">
-    
+    <div class="container-fluid">
+        <div class="p-2">
+        </div>
+    </div>
     <table class="calculadora">
         <tr>
             <td colspan="4"><span id="resultado"></span></td>
@@ -39,8 +44,15 @@
             <td><button id="suma">+</button></td>
         </tr>
     </table>
-    <div class="footer">
-        llmaster23ll
+    <div class="container-fluid mt-5">
+        <div class="bg-dark text-white p-5 text-center row">
+                <p>
+                    <span>
+                        visita mi github 
+                        <a href="https://github.com/lldaniel23ll/">lldaniel23ll</a>&#9400
+                    </span>
+                </p>
+        </div>
     </div>
     <script src="calculator.js"></script>
 </body>
